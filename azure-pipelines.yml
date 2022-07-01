@@ -13,7 +13,7 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- script: echo %PATH% >> D:\temp\result.log
+- script: mvn -v
   displayName: 'Run check maven version'
 
 
